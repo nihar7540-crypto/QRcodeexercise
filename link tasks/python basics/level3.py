@@ -2,8 +2,10 @@ add=0
 num=int(input("enter a number for operation: "))
 for i in range(1,num+1):
     add+=i
-print("consecutive sum is",add)    
+print("consecutive sum is",add) 
+
 ############################################################
+
 for i in range(5):
     a=int(input("enter first number :"))
     b=int(input("enter secont number:"))
@@ -28,7 +30,9 @@ for i in range(5):
         
 else:
     print("all are equal")                  
+
 ############################################################
+
 for i in range(5):
     year=int(input("enter year to check: "))
     if year%400==0:
@@ -39,8 +43,10 @@ for i in range(5):
         else:
             print("not a leap year")    
     else:
-        print("not a leap year")        
+        print("not a leap year")     
+
 ############################################################
+
 a=input("enter your username")
 if a=="admin":
     b=int(input("enter your password"))
@@ -49,8 +55,10 @@ if a=="admin":
     else :
         print("invalid password") 
 else :
-    print("invalid user name")           
+    print("invalid user name")
+
 ###########################################################
+
 a=int(input("enter a number: "))
 if a%2==0:
     if a%4==0:
@@ -59,7 +67,9 @@ if a%2==0:
         print("number is even but not divisible by 4")
 else :
     print("not an even no")            
+
 ###########################################################
+
 a=int(input("enter temperature in celcius"))
 if a>=40:
     print("very hot")
@@ -69,4 +79,5 @@ elif a>=20 and a<30:
     print("normal")
 else:
     print("cold")
+    
 ###########################################################
