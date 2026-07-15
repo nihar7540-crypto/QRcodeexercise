@@ -1,8 +1,8 @@
-# fact=1
-# n=int(input("enter a number: "))
-# for i in range(n,1,-1):
-#     fact*=i
-# print(fact)    
+fact=1
+n=int(input("enter a number: "))
+for i in range(n,1,-1):
+    fact*=i
+print(fact)    
 
 #####################################################3
 
