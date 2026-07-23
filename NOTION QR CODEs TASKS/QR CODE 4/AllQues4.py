@@ -78,3 +78,25 @@ for i in a :
     a.count(i)
 
 
+##################################################
+
+a= ["apple", "banana", "apple", "cherry"]
+b=[]
+for i in a:
+    if a.count(i)>1:
+        a.remove(i)
+        b.append(i)
+print("".join(b))
+
+##################################################
+
+a=["apple", "bat", "banana", "ant"]
+c=[]
+for i in a:
+    b=len(i)
+    c.append([b,i])
+c.sort()
+x=[]
+for j in c:
+    x.append(j[1])
+print(x)
